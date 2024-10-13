@@ -30,8 +30,29 @@
     background-repeat: no-repeat;
     overflow: hidden;
 
-    /*  display: flex;
+     display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
 }
 
+#tarjeta{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#tarjeta img{
+    width: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+audio{
+    width: 250px;
+    overflow: hidden;
+    border: 1px solid white;
+    background: #f1f3f4;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
